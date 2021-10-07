@@ -7,7 +7,7 @@
 * 12장 디버깅 예제
     * 링크: https://github.com/bjpublic/Front-end/tree/master/chapter12-debug
 * 13, 14장 테스트 예제
-    * 링크: 
+    * 링크: https://github.com/js-tutorial-book/chap13-test
 
 
 ```
