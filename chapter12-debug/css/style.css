@@ -60,3 +60,12 @@ body {
   width: 100%;
   text-align: center;
 }
+
+/* 12.2.1 모바일 환경 적용 */
+@media (min-width: 768px) { .card-area .card {
+  width: 32%; }
+}
+
+@media (max-width: 768px) { .card-area .card {
+  width: 47%; }
+} 
