@@ -1,0 +1,30 @@
+{
+  "name": "chapter12.debug",
+  "version": "1.0.0",
+  "description": "12장 디버깅 예제",
+  "main": "./js/index.js",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-tutorial-book/chap12-debug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-tutorial-book/chap12-debug"
+  },
+  "homepage": "https://github.com/js-tutorial-book/chap12-debug#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
