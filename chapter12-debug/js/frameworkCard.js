@@ -1,3 +1,5 @@
+import { showModal } from "./modal";
+
 export default class FrameworkCard {
   constructor(frameworkInfo) {
     const { name, desc, website, imageUrl, index } = frameworkInfo;
@@ -33,6 +35,11 @@ export default class FrameworkCard {
     return this.imageUrl;
   }
 
+  onClickCard() {
+    const { name, desc, website } = this;
+    showModal({ name, desc, website });
+  }
+
   makeCardElement() {
     const el = document.createElement("div");
     el.className = "card";
@@ -46,6 +53,8 @@ export default class FrameworkCard {
         </p>
       </div>
     `;
+
+    el.addEventListener("click", this.onClickCard.bind(this));
 
     return el;
   }
