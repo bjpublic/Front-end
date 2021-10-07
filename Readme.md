@@ -5,7 +5,7 @@
 * 10, 11장 뉴스 게시판 만들기 및 개발 도구
     * 링크:
 * 12장 디버깅 예제
-    * 링크
+    * 링크: https://github.com/bjpublic/Front-end/tree/master/chapter12-debug
 * 13, 14장 테스트 예제
     * 링크: 
 
