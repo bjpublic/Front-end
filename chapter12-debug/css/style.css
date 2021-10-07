@@ -4,7 +4,8 @@ body {
   padding: 0;
 }
 
-.container {
+/* 12.2.2 클래스명 변경 */
+.card-container {
   padding: 30px;
 }
 
