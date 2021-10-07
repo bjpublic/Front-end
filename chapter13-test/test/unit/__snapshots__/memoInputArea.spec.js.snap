@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`memoInputArea MemoInputArea 요소는 스냅샷과 일치해야 한다. 1`] = `
+<div
+  class="border-bottom mb-3 pb-3"
+>
+  <div
+    class="form-floating"
+  >
+    <textarea
+      class="form-control"
+      id="memo"
+      style="height: 100px;"
+    />
+    <label
+      for="memo"
+    >
+      메모 작성하기
+    </label>
+  </div>
+  <div
+    class="d-flex justify-content-end mt-3"
+  >
+    <button
+      class="btn btn-primary"
+    >
+      Add Memo
+    </button>
+  </div>
+</div>
+`;

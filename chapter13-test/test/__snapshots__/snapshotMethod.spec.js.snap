@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 메서드 테스트 toMatchSnapshot()은 파일 외부에 스냅샷을 기록한다. 1`] = `
+<button>
+  Hello
+</button>
+`;

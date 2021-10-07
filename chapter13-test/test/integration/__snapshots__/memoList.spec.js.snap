@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MemoList memoList 요소는 스냅샷과 일치해야 한다. 1`] = `
+<ul
+  class="list-group"
+/>
+`;
