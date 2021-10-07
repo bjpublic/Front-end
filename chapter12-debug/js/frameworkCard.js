@@ -15,8 +15,9 @@ export default class FrameworkCard {
 
   formatName(name, index) {
     const iconList = ["🦊", "🐶", "🐱"];
+    const icon = Number.isNaN(Number(index)) ? '🦁' : iconList[index];
 
-    return `${iconList[index]} ${name}`;
+    return `${icon} ${name}`;
   }
 
   getName() {
