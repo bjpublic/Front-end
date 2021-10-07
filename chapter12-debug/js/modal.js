@@ -18,4 +18,4 @@ export function hideModal() {
   modalLayer.classList.add("hidden");
 }
 
-modalCloseButton.addEventListner("click", hideModal);
+modalCloseButton.addEventListener("click", hideModal);
