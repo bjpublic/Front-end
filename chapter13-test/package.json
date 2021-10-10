@@ -1,8 +1,7 @@
 {
-  "name": "chapter13.test",
+  "name": "chapter13-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "/src/index.js",
+  "description": "13, 14장 테스트 예제",
   "scripts": {
     "start": "webpack serve",
     "storybook": "start-storybook -p 6006",
