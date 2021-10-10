@@ -7,3 +7,5 @@
 ## 실행 방법
 
 VS Code의 Live Server extension를 사용하여 index.html 파일을 실행합니다.
+
+![liveserver](https://user-images.githubusercontent.com/37766175/136686654-a4310f89-625e-456b-b1d5-5258bfa57c59.png)
