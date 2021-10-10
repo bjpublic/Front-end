@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "title": "JavaScript의 25번째 생일을 축하합니다!",
+      "summary": "1996년 Netscape와 Sun Microsystems가 발표한 JavaScript가 2020년, 25주년을 맞이하게 되었습니다!",
+      "link": "https://js25.org",
+      "thumbnailImage": "https://user-images.githubusercontent.com/35371660/101241806-c786d580-373c-11eb-86ba-ed405cfc2ed2.png"
+    },
+    {
+      "title": "Webpack 5.0 릴리즈",
+      "summary": "2020년 10월 10일 새로운 웹팩 버전인 Webpack 5.0이 릴리즈 되었습니다. 이번 메이저 배포에서 어떤 변화가 있었는지 함께 살펴보시죠.",
+      "link": "https://webpack.js.org/blog/2020-10-10-webpack-5-release/",
+      "thumbnailImage": "https://user-images.githubusercontent.com/35371660/101242849-77f5d900-373f-11eb-8070-7cb865009c1f.png"
+    },
+    {
+      "title": "JSConf 개최",
+      "summary": "올 연말 가장 큰 규모의 자바스크립트 컨퍼런스인 JSConf가 웨비나로 개최됩니다.",
+      "link": "https://jsconf.com/",
+      "thumbnailImage": "https://user-images.githubusercontent.com/35371660/101243080-1df61300-3741-11eb-879a-1f25bb38d3ff.jpg"
+    },
+    {
+      "title": "[개발자 인터뷰] NHN 개발자 이재성",
+      "summary": "오늘의 개발자 인터뷰는 NHN에서 자바스크립트로 개발을 하고 있으신 이재성씨를 만나봤습니다.",
+      "link": "#1",
+      "thumbnailImage": "https://user-images.githubusercontent.com/35371660/101243159-9eb50f00-3741-11eb-8e84-33a394179621.jpg"
+    }
+  ]
+}
