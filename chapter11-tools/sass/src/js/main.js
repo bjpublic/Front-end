@@ -1,6 +1,6 @@
-import { fetch } from 'whatwg-fetch';  
+import { fetch } from 'whatwg-fetch';
 import { createSpinner } from './spinner.js';
-import './polyfill/append.js';  
+import './polyfill/append.js';
 import '../scss/index.scss';
 
 function createLatestNewsElement(article) {
@@ -11,7 +11,7 @@ function createLatestNewsElement(article) {
 
   anchor.setAttribute('href', link);
   anchor.textContent = title;
-  
+
   listItem.className = 'latest-news-item';
   listItem.append(anchor);
 
@@ -38,7 +38,7 @@ function createTopNewsElement(article) {
 }
 
 function renderTopNews() {
-  const articleSection= document.getElementById('topNewsList');
+  const articleSection = document.getElementById('topNewsList');
 
   createSpinner(articleSection);
 
@@ -47,14 +47,16 @@ function renderTopNews() {
       .then((res) => res.json())
       .then((data) => {
         const { articles } = data;
-        const articleList = articles.map((article) => createTopNewsElement(article));
+        const articleList = articles.map((article) =>
+          createTopNewsElement(article)
+        );
 
         articleSection.append(...articleList);
       })
       .finally(() => {
         hideSpinner(articleSection);
       });
-    }, 1500);
+  }, 1500);
 }
 
 function renderLatestNews() {
@@ -67,14 +69,16 @@ function renderLatestNews() {
       .then((res) => res.json())
       .then((data) => {
         const { articles } = data;
-        const articleList = articles.map((article) => createLatestNewsElement(article));
+        const articleList = articles.map((article) =>
+          createLatestNewsElement(article)
+        );
 
         latestNewsList.append(...articleList);
       })
       .finally(() => {
         hideSpinner(latestNewsList);
       });
-    }, 1500);
+  }, 1500);
 }
 
 function hideSpinner(parent) {
