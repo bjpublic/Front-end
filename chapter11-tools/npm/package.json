@@ -1,0 +1,10 @@
+{
+  "name": "chapter11-tools",
+  "version": "1.0.0",
+  "description": "development tools example - npm, webpack, babel, scss, lint",
+  "scripts": {
+    "my-script": "node ./myScript.js"
+  },
+  "author": "jaesung lee, jung han",
+  "license": "ISC"
+}
