@@ -1,0 +1,13 @@
+@use 'flex';
+
+.spinner-area {
+  @include flex.flexbox;
+  @include flex.justify-content(center);
+  @include flex.align-items(center);
+
+  height: 400px;
+
+  img {
+    width: 50px;
+  }
+}

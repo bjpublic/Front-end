@@ -1,0 +1,10 @@
+$font_color: #222;  
+$max_width: 1000px;  
+	  
+body {  
+  color: $font_color;  
+
+  div {  
+    max-width: $max_width;  
+  }
+}  
