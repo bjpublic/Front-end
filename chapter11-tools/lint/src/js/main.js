@@ -4,7 +4,7 @@ import './polyfill/append.js';
 import '../scss/index.scss';
 
 function createLatestNewsElement(article) {
-  const { title, summary, link, thumbnailImage } = article;
+  const { title, link } = article;
 
   const listItem = document.createElement('li');
   const anchor = document.createElement('a');

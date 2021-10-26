@@ -38,13 +38,13 @@ $hovered-color: #add8e6;
     .latest-news-list {
       margin-top: vars.$margin;
     }
-    
+
     .latest-news-item {
       padding: vars.$padding 0;
       border-bottom: 1px dotted #5a6268;
 
       &:hover {
-        color: $hovered-color
+        color: $hovered-color;
       }
     }
   }
@@ -73,17 +73,16 @@ $hovered-color: #add8e6;
       font-size: 18px;
     }
   }
-  
+
   .thumbnail-area {
     max-width: 140px;
 
     .thumbnail {
-      width: 100%;
-      height: 100%;
+      max-width: 100%;
+      height: auto;
     }
   }
 }
-
 
 .support-section {
   margin-top: get-added-default-margin(10);
@@ -113,7 +112,6 @@ $hovered-color: #add8e6;
       color: #ea4aaa;
       fill: currentColor;
     }
-    
   }
 }
 

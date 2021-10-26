@@ -2,7 +2,7 @@ import { createSpinner } from './spinner.js';
 import '../css/main.css';
 
 function createLatestNewsElement(article) {
-  const { title, summary, link, thumbnailImage } = article;
+  const { title, link } = article;
 
   const listItem = document.createElement('li');
   const anchor = document.createElement('a');
