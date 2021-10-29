@@ -15,8 +15,6 @@ module.exports = {
   devServer: {
     host: '0.0.0.0',
     port: 8000,
-    overlay: true,
     stats: 'errors-warnings',
-    inline: true,
   },
-}; 
+};

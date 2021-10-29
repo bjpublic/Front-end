@@ -25,16 +25,14 @@ module.exports = {
         include: [path.resolve(__dirname, 'src/js')],
         exclude: /node_modules/,
         use: { loader: 'babel-loader' },
-      }
+      },
     ],
   },
   devtool: 'eval-source-map',
   devServer: {
     host: '0.0.0.0',
     port: 8000,
-    overlay: true,
     stats: 'errors-warnings',
-    inline: true,
-    open: true
+    open: true,
   },
 };

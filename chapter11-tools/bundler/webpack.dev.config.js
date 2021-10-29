@@ -13,16 +13,14 @@ module.exports = {
       {
         test: /\.(png|jpg|gif)$/i,
         use: ['file-loader'],
-      }
+      },
     ],
   },
   devtool: 'eval-source-map',
   devServer: {
     host: '0.0.0.0',
     port: 8000,
-    overlay: true,
     stats: 'errors-warnings',
-    inline: true,
-    open: true
+    open: true,
   },
 };
